@@ -55,9 +55,7 @@ function Parking() {
               <td style={{ textAlign: "center" }}>
                 {`${space.type === "car" ? "Carro" : "Moto"} `}
               </td>
-              <td style={{ textAlign: "center" }}>
-                {`Celda ${space.number} ${space.occupied}`}
-              </td>
+              <td style={{ textAlign: "center" }}>{`${space.number}`}</td>
               {filter === "ocupadas" && (
                 <>
                   <td style={{ textAlign: "center" }}>
