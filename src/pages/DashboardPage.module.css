@@ -1,0 +1,19 @@
+/* DashboardPage.module.css */
+.navMenu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.navMenu button {
+    padding: 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navMenu button:hover {
+    background-color: #0d47a1;
+}

@@ -1,0 +1,55 @@
+/* VehicleForm.module.css */
+.formContainer {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+label {
+    width: 93%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+
+input {
+    width: 93%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
